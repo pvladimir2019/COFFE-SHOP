@@ -1,0 +1,130 @@
+body{
+    background-color: #f5f5f5;
+}
+/*************************************HEADER**************************************/
+
+h1{
+    font-size: 2.2rem;
+    font-weight: 100;
+    color: #332f2fb4;
+}
+header a{
+    font-size: 0.85rem;
+    color: #332f2fb4;
+    margin-left: 15px;
+    
+}
+header a:hover{
+    text-decoration: none;
+    color: #151615e1;
+}
+
+#hamb{
+    max-width: 15px;
+}
+/**************************************FRONT SEC***********************************/
+#hero{
+    position: relative;
+}
+#hero > p{
+    color: #f8f8f8;
+    background-color: #31c68b;
+    font-weight: 600;
+    
+    position: absolute; 
+}
+/****************************responsive za hero text********************************/
+@media only screen and (max-width: 767px) {
+
+    .respo { 
+       font-size: 0.86em; 
+       top: 35%;
+       left: 10%;
+       bottom: auto;
+       right: auto;
+       
+    }
+ 
+ }
+ @media only screen and (min-width: 768px) {
+
+    .respo { 
+       font-size: 1.4em; 
+       top: 15%;
+       left: 10%;
+       bottom: auto;
+       right: auto;
+       
+    }
+ 
+ }
+/***********************************************************************************/
+
+.prva{
+    
+    margin-bottom: 20px;
+}
+#thumb p{
+    color: #332f2f91
+}
+#thumb div{
+    padding: 0;
+}
+/**************************************SECOND SEC***********************************/
+#second h5{
+    border-bottom: 1px solid#332f2f91;
+    margin: 0 2px;
+    padding-bottom: 3px;
+}
+
+#second div{
+    padding: 0;
+}
+#second p{
+    margin: 0;
+    padding: 0 3px;
+}
+#second .siva{
+    color: #332f2f91;
+    margin-bottom: 10px;
+    
+}
+.druga1 img{
+    padding: 3px;
+}
+.druga2{
+    margin-bottom: 5px;
+}
+.druga2 img {
+    padding: 3px;
+}
+/**************************************THIRD SEC***********************************/
+#third{
+    background-color: #000000d8;
+    color: #e2e2e2;
+}
+.treca{
+    
+    margin-bottom: 30px;
+}
+#third p{
+    margin: 5px 0;
+}
+#third a{
+    font-size: 0.85rem;
+    color: #d3d3d3a8;
+    display: block;
+    padding: 5px 0;
+    border-bottom: 1px solid #b1b1b142;
+
+    
+}
+#third a:hover{
+    text-decoration: none;
+    color: #a7a7a7a8;
+}
+/**************************************FOOTER***********************************/
+footer{
+    background-color: #000000ec;
+    color: #8b8b8b;
+}
